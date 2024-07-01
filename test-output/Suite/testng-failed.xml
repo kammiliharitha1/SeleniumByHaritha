@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Add and Remove Item in ebay(failed)">
+    <classes>
+      <class name="tests.RemoveItemfromCart">
+        <methods>
+          <include name="addItemToCart"/>
+          <include name="removeItemFromCart"/>
+          <include name="tearDown"/>
+          <include name="setUpdata"/>
+        </methods>
+      </class> <!-- tests.RemoveItemfromCart -->
+    </classes>
+  </test> <!-- Add and Remove Item in ebay(failed) -->
+</suite> <!-- Failed suite [Suite] -->
