@@ -12,6 +12,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Reporter;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 
@@ -26,6 +27,7 @@ public class BaseTest {
 	public static FileReader frloc;
 	public WebDriverWait wait;
 	public Actions action;
+	
 
 	@BeforeTest
 	public void setUpdata() throws IOException {
@@ -43,6 +45,7 @@ public class BaseTest {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 			driver.get(p.getProperty("URL"));
+			
 
 		}
 
@@ -61,6 +64,8 @@ public class BaseTest {
 		}
 		wait=new WebDriverWait(driver,Duration.ofSeconds(10));
 		action=new Actions(driver);
+		System.out.println(driver+"is instantiated");
+		Reporter.log(driver+"is instantiated");
 
 	}
 
@@ -68,8 +73,14 @@ public class BaseTest {
 	
 	
 	
+	
+	
 	  @AfterTest public void tearDown() {
-	  System.out.println("Tear down successful"); driver.close(); }
+	  System.out.println("Tear down successful"); 
+	  Reporter.log("Tear down successful");
+	  driver.close(); }
+	 
+	 
 	 
 	 
 	 

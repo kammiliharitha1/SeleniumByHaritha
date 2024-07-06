@@ -10,6 +10,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import base.BaseTest;
@@ -85,6 +86,8 @@ public class AddMultiItemToCart extends BaseTest {
 
 		
 	}
+		System.out.println("Multiple Items are added to cart successfully");
+		Reporter.log("Multiple Items are added to cart successfully");
 	}
 }
 

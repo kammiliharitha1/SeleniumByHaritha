@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Add and Remove Item in ebay(failed)">
+  <test thread-count="5" name="Search item and add to cart and verify the item name and price(failed)">
     <classes>
-      <class name="tests.RemoveItemfromCart">
+      <class name="tests.SearchProduct">
         <methods>
-          <include name="addItemToCart"/>
-          <include name="removeItemFromCart"/>
           <include name="tearDown"/>
           <include name="setUpdata"/>
+          <include name="search"/>
         </methods>
-      </class> <!-- tests.RemoveItemfromCart -->
+      </class> <!-- tests.SearchProduct -->
     </classes>
-  </test> <!-- Add and Remove Item in ebay(failed) -->
+  </test> <!-- Search item and add to cart and verify the item name and price(failed) -->
 </suite> <!-- Failed suite [Suite] -->

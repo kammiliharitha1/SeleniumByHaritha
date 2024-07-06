@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import utilities.Cart;
@@ -32,10 +33,12 @@ public class CheckOut extends  AddItemToCart{
 	String ActCheckOutTitle=driver.getTitle();
 	wait.until(ExpectedConditions.titleContains(ExpCheckOutTitle));
 	Assert.assertEquals(ActCheckOutTitle,ExpCheckOutTitle);
+	
 		}
 		
 		else {
 			System.out.println("Cart not clicked");
+			Reporter.log("Cart not clicked");
 		}
 	
 	

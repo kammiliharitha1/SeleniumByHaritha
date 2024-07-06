@@ -4,6 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import utilities.Cart;
@@ -24,11 +25,14 @@ public class RemoveItemfromCart extends AddItemToCart {
 		wait.until(ExpectedConditions.visibilityOf(confbox));
 		String expConfMsg="You don't have any items in your cart.";
 		Assert.assertEquals(actConfMsg, expConfMsg);
-		System.out.println("Item is removed from cart successfully");}
-		else {
-			System.out.println("cart not clicked");
+		System.out.println("Item is removed from cart successfully");
+		Reporter.log("Item is removed from cart successfully");
 		}
 		
+		  else { System.out.println("cart not clicked");
+		  Reporter.log("cart not clicked");
+		  }
+		 
 		
 		
 

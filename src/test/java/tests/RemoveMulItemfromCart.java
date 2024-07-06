@@ -5,6 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Test;
 
 import utilities.Cart;
@@ -48,10 +49,12 @@ public class RemoveMulItemfromCart extends AddMultiItemToCart {
 		
 		
 			System.out.println("All items are removed successfully");
+			Reporter.log("All items are removed successfully");
 			
 			
 				}
-		else {System.out.println("cart not clicked");}
+		else {System.out.println("cart not clicked");
+		Reporter.log("Cart not clicked");}
 }
 }
 

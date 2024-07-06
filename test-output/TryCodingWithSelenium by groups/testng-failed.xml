@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TryCodingWithSelenium by groups]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GRP-Add and Remove item from cart(failed)">
+    <groups>
+      <run>
+        <include name="Add and Remove item from cart"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.AddItemToCart">
+        <methods>
+          <include name="addItemToCart"/>
+        </methods>
+      </class> <!-- tests.AddItemToCart -->
+      <class name="tests.RemoveItemfromCart">
+        <methods>
+          <include name="addItemToCart"/>
+          <include name="removeItemFromCart"/>
+        </methods>
+      </class> <!-- tests.RemoveItemfromCart -->
+    </classes>
+  </test> <!-- GRP-Add and Remove item from cart(failed) -->
+</suite> <!-- Failed suite [TryCodingWithSelenium by groups] -->

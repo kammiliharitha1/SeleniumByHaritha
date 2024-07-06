@@ -6,6 +6,7 @@
       <class name="tests.CheckOut">
         <methods>
           <include name="checkOut"/>
+          <include name="tearDown"/>
           <include name="setUpdata"/>
         </methods>
       </class> <!-- tests.CheckOut -->
