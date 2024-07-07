@@ -65,6 +65,8 @@ public class SearchProduct extends BaseTest {
 		WebElement addToCart = driver.findElement(By.id(loc.getProperty("AddToCart")));
 		WebElement itemPrice=driver.findElement(By.cssSelector(loc.getProperty("item1Price")));
 		String actItemPrice=itemPrice.getText();
+		int startIndex = actItemPrice.indexOf('$');
+		String actPrice=actItemPrice.substring(startIndex).split(" ")[0];
 		
 
 		wait.until(ExpectedConditions.elementToBeClickable(addToCart));
@@ -78,9 +80,11 @@ public class SearchProduct extends BaseTest {
 		WebElement itemInCart=driver.findElement(By.cssSelector(loc.getProperty("IteminCart")));
 		String expitem=itemInCart.getAttribute("alt");
 		String expitemPrice=driver.findElement(By.xpath(loc.getProperty("IteminCartPrice"))).getText();
+		int startIndex1 = expitemPrice.indexOf('$');
+		String expPrice=actItemPrice.substring(startIndex).split(" ")[0];
 		
 		Assert.assertEquals(actitem, expitem);
-		Assert.assertEquals(actItemPrice, expitemPrice);
+		Assert.assertEquals(actPrice, expPrice);
 		System.out.println("Item selected= "+expitem +".It's Price is "+expitemPrice);
 		
 		

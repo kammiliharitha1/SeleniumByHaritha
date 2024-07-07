@@ -78,7 +78,7 @@ public class BaseTest {
 	  @AfterTest public void tearDown() {
 	  System.out.println("Tear down successful"); 
 	  Reporter.log("Tear down successful");
-	  driver.close(); }
+	  driver.quit(); }
 	 
 	 
 	 
