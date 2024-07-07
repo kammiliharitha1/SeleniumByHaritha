@@ -6,7 +6,7 @@
 	<artifactId>TryCodingWithSelenium</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-		<browserProperty>Edge</browserProperty>
+		<browserProperty>Chrome</browserProperty>
 	</properties>
 	
 
