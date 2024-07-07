@@ -6,8 +6,9 @@
 	<artifactId>TryCodingWithSelenium</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-		<browserProperty>Chrome</browserProperty>
+		<browserProperty>Edge</browserProperty>
 	</properties>
+	
 
 
 	<dependencies>
@@ -89,7 +90,11 @@
 					<suiteXmlFiles>
 						<suiteXmlFile>testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
+					<systemPropertyVariables>
+						<browserProperty>${browserProperty}</browserProperty></systemPropertyVariables>
 				</configuration>
+				
+	
 			</plugin>
 		</plugins>
 	</build>

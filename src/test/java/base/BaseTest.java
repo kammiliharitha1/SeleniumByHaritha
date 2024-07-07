@@ -56,7 +56,8 @@ public class BaseTest {
 
 		}
 
-		else if (p.getProperty("browser").equalsIgnoreCase("Edge")) {
+		//else if (p.getProperty("browser").equalsIgnoreCase("Edge")) {
+		else if(System.getProperty("browserProperty").equalsIgnoreCase("Edge")){
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
 			driver.get(p.getProperty("URL"));
