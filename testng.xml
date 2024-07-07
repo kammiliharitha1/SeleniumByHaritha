@@ -6,11 +6,7 @@
 		<class name="tests.RemoveItemfromCart"/>
 	</classes>
   </test> <!-- eBay -->
-  <test name="Add and Remove multiple Items in ebay">
-	<classes>
-		<class name="tests.RemoveMulItemfromCart"/>
-	</classes>
-  </test> <!-- eBay -->
+  
   <test name="Search item and add to cart and verify the item name and price">
 	<classes>
 		<class name="tests.SearchProduct"/>

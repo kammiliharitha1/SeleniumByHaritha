@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
     <line>
-      <![CDATA[ChromeDriver: chrome on windows (a0480b8ddc7b59e7595910d4301af1ef)is instantiated]]>
+      <![CDATA[ChromeDriver: chrome on windows (25286273c2a2378b6ba4dc7fd3c33ece)is instantiated]]>
     </line>
     <line>
       <![CDATA[Item added to Cart successfully]]>
@@ -14,7 +14,7 @@
       <![CDATA[Tear down successful]]>
     </line>
     <line>
-      <![CDATA[ChromeDriver: chrome on windows (52b7d219d0367cd54dd78f4455f78033)is instantiated]]>
+      <![CDATA[ChromeDriver: chrome on windows (b3ec9b5d2336833e3da2e35fe4eda787)is instantiated]]>
     </line>
     <line>
       <![CDATA[Multiple Items are added to cart successfully]]>
@@ -26,39 +26,39 @@
       <![CDATA[Tear down successful]]>
     </line>
     <line>
-      <![CDATA[ChromeDriver: chrome on windows (71b64fbd320149fc744b867a06e06103)is instantiated]]>
+      <![CDATA[ChromeDriver: chrome on windows (1b3b26545369146c1fad9f71a15939ad)is instantiated]]>
     </line>
     <line>
       <![CDATA[Tear down successful]]>
     </line>
   </reporter-output>
-  <suite started-at="2024-07-07T08:29:47 IST" name="Suite" finished-at="2024-07-07T08:31:24 IST" duration-ms="96627">
+  <suite started-at="2024-07-07T11:55:27 IST" name="Suite" finished-at="2024-07-07T11:57:05 IST" duration-ms="98770">
     <groups>
     </groups>
-    <test started-at="2024-07-07T08:29:47 IST" name="Add and Remove Item in ebay" finished-at="2024-07-07T08:30:21 IST" duration-ms="34006">
+    <test started-at="2024-07-07T11:55:27 IST" name="Add and Remove Item in ebay" finished-at="2024-07-07T11:55:55 IST" duration-ms="28019">
       <class name="tests.RemoveItemfromCart">
-        <test-method is-config="true" signature="setUpdata()[pri:0, instance:tests.RemoveItemfromCart@77888435]" started-at="2024-07-07T08:29:47 IST" name="setUpdata" finished-at="2024-07-07T08:29:52 IST" duration-ms="4790" status="PASS">
+        <test-method is-config="true" signature="setUpdata()[pri:0, instance:tests.RemoveItemfromCart@77888435]" started-at="2024-07-07T11:55:27 IST" name="setUpdata" finished-at="2024-07-07T11:55:30 IST" duration-ms="3400" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[ChromeDriver: chrome on windows (a0480b8ddc7b59e7595910d4301af1ef)is instantiated]]>
+              <![CDATA[ChromeDriver: chrome on windows (25286273c2a2378b6ba4dc7fd3c33ece)is instantiated]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUpdata -->
-        <test-method signature="addItemToCart()[pri:1, instance:tests.RemoveItemfromCart@77888435]" started-at="2024-07-07T08:29:52 IST" name="addItemToCart" finished-at="2024-07-07T08:30:14 IST" duration-ms="22318" status="PASS">
+        <test-method signature="addItemToCart()[pri:1, instance:tests.RemoveItemfromCart@77888435]" started-at="2024-07-07T11:55:30 IST" name="addItemToCart" finished-at="2024-07-07T11:55:49 IST" duration-ms="18871" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Item added to Cart successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- addItemToCart -->
-        <test-method signature="removeItemFromCart()[pri:2, instance:tests.RemoveItemfromCart@77888435]" started-at="2024-07-07T08:30:15 IST" name="removeItemFromCart" finished-at="2024-07-07T08:30:21 IST" duration-ms="6435" status="PASS">
+        <test-method signature="removeItemFromCart()[pri:2, instance:tests.RemoveItemfromCart@77888435]" started-at="2024-07-07T11:55:49 IST" name="removeItemFromCart" finished-at="2024-07-07T11:55:54 IST" duration-ms="5271" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Item is removed from cart successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- removeItemFromCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RemoveItemfromCart@77888435]" started-at="2024-07-07T08:30:21 IST" name="tearDown" finished-at="2024-07-07T08:30:21 IST" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RemoveItemfromCart@77888435]" started-at="2024-07-07T11:55:54 IST" name="tearDown" finished-at="2024-07-07T11:55:55 IST" duration-ms="339" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Tear down successful]]>
@@ -67,30 +67,30 @@
         </test-method> <!-- tearDown -->
       </class> <!-- tests.RemoveItemfromCart -->
     </test> <!-- Add and Remove Item in ebay -->
-    <test started-at="2024-07-07T08:30:21 IST" name="Add and Remove multiple Items in ebay" finished-at="2024-07-07T08:31:00 IST" duration-ms="38245">
+    <test started-at="2024-07-07T11:55:55 IST" name="Add and Remove multiple Items in ebay" finished-at="2024-07-07T11:56:37 IST" duration-ms="42295">
       <class name="tests.RemoveMulItemfromCart">
-        <test-method is-config="true" signature="setUpdata()[pri:0, instance:tests.RemoveMulItemfromCart@31190526]" started-at="2024-07-07T08:30:21 IST" name="setUpdata" finished-at="2024-07-07T08:30:23 IST" duration-ms="1778" status="PASS">
+        <test-method is-config="true" signature="setUpdata()[pri:0, instance:tests.RemoveMulItemfromCart@31190526]" started-at="2024-07-07T11:55:55 IST" name="setUpdata" finished-at="2024-07-07T11:55:58 IST" duration-ms="3863" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[ChromeDriver: chrome on windows (52b7d219d0367cd54dd78f4455f78033)is instantiated]]>
+              <![CDATA[ChromeDriver: chrome on windows (b3ec9b5d2336833e3da2e35fe4eda787)is instantiated]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUpdata -->
-        <test-method signature="addMultiItemToCart()[pri:1, instance:tests.RemoveMulItemfromCart@31190526]" started-at="2024-07-07T08:30:23 IST" name="addMultiItemToCart" finished-at="2024-07-07T08:30:50 IST" duration-ms="26773" status="PASS">
+        <test-method signature="addMultiItemToCart()[pri:1, instance:tests.RemoveMulItemfromCart@31190526]" started-at="2024-07-07T11:55:59 IST" name="addMultiItemToCart" finished-at="2024-07-07T11:56:25 IST" duration-ms="26687" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Multiple Items are added to cart successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- addMultiItemToCart -->
-        <test-method signature="removeMultiItemFromCart()[pri:2, instance:tests.RemoveMulItemfromCart@31190526]" started-at="2024-07-07T08:30:50 IST" name="removeMultiItemFromCart" finished-at="2024-07-07T08:30:59 IST" duration-ms="9379" status="PASS">
+        <test-method signature="removeMultiItemFromCart()[pri:2, instance:tests.RemoveMulItemfromCart@31190526]" started-at="2024-07-07T11:56:25 IST" name="removeMultiItemFromCart" finished-at="2024-07-07T11:56:37 IST" duration-ms="11438" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[All items are removed successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- removeMultiItemFromCart -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RemoveMulItemfromCart@31190526]" started-at="2024-07-07T08:30:59 IST" name="tearDown" finished-at="2024-07-07T08:31:00 IST" duration-ms="307" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.RemoveMulItemfromCart@31190526]" started-at="2024-07-07T11:56:37 IST" name="tearDown" finished-at="2024-07-07T11:56:37 IST" duration-ms="299" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Tear down successful]]>
@@ -99,20 +99,20 @@
         </test-method> <!-- tearDown -->
       </class> <!-- tests.RemoveMulItemfromCart -->
     </test> <!-- Add and Remove multiple Items in ebay -->
-    <test started-at="2024-07-07T08:31:00 IST" name="Search item and add to cart and verify the item name and price" finished-at="2024-07-07T08:31:24 IST" duration-ms="24321">
+    <test started-at="2024-07-07T11:56:37 IST" name="Search item and add to cart and verify the item name and price" finished-at="2024-07-07T11:57:05 IST" duration-ms="28421">
       <class name="tests.SearchProduct">
-        <test-method is-config="true" signature="setUpdata()[pri:0, instance:tests.SearchProduct@477b4cdf]" started-at="2024-07-07T08:31:00 IST" name="setUpdata" finished-at="2024-07-07T08:31:04 IST" duration-ms="4186" status="PASS">
+        <test-method is-config="true" signature="setUpdata()[pri:0, instance:tests.SearchProduct@477b4cdf]" started-at="2024-07-07T11:56:37 IST" name="setUpdata" finished-at="2024-07-07T11:56:40 IST" duration-ms="3466" status="PASS">
           <reporter-output>
             <line>
-              <![CDATA[ChromeDriver: chrome on windows (71b64fbd320149fc744b867a06e06103)is instantiated]]>
+              <![CDATA[ChromeDriver: chrome on windows (1b3b26545369146c1fad9f71a15939ad)is instantiated]]>
             </line>
           </reporter-output>
         </test-method> <!-- setUpdata -->
-        <test-method signature="search()[pri:0, instance:tests.SearchProduct@477b4cdf]" started-at="2024-07-07T08:31:04 IST" name="search" finished-at="2024-07-07T08:31:24 IST" duration-ms="19976" status="PASS">
+        <test-method signature="search()[pri:0, instance:tests.SearchProduct@477b4cdf]" started-at="2024-07-07T11:56:40 IST" name="search" finished-at="2024-07-07T11:57:05 IST" duration-ms="24461" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- search -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchProduct@477b4cdf]" started-at="2024-07-07T08:31:24 IST" name="tearDown" finished-at="2024-07-07T08:31:24 IST" duration-ms="156" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.SearchProduct@477b4cdf]" started-at="2024-07-07T11:57:05 IST" name="tearDown" finished-at="2024-07-07T11:57:05 IST" duration-ms="488" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Tear down successful]]>

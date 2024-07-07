@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="98.061" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="99.996" tests="5" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="22"/>
     <property name="webdriver.chrome.driver" value="C:\Users\DELL\.cache\selenium\chromedriver\win64\126.0.6478.126\chromedriver.exe"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="IN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire15420013421366625876\surefirebooter-20240707082945159_3.jar C:\Users\DELL\AppData\Local\Temp\surefire15420013421366625876 2024-07-07T08-29-44_748-jvmRun1 surefire-20240707082945159_1tmp surefire_0-20240707082945159_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\DELL\AppData\Local\Temp\surefire5707695023006238596\surefirebooter-20240707115525194_3.jar C:\Users\DELL\AppData\Local\Temp\surefire5707695023006238596 2024-07-07T11-55-24_946-jvmRun1 surefire-20240707115525194_1tmp surefire_0-20240707115525194_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\SeleniumByHaritha\TryCodingWithSelenium\target\test-classes;C:\SeleniumByHaritha\TryCodingWithSelenium\target\classes;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\DELL\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\DELL\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\DELL\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\DELL\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\DELL\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\DELL\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\DELL\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\DELL\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\DELL\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\DELL\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\DELL\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\DELL\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\DELL\.m2\repository\org\apache\poi\poi\5.2.5\poi-5.2.5.jar;C:\Users\DELL\.m2\repository\commons-codec\commons-codec\1.16.0\commons-codec-1.16.0.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\DELL\.m2\repository\commons-io\commons-io\2.15.0\commons-io-2.15.0.jar;C:\Users\DELL\.m2\repository\com\zaxxer\SparseBitSet\1.3\SparseBitSet-1.3.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\DELL\.m2\repository\org\apache\poi\poi-ooxml\5.2.5\poi-ooxml-5.2.5.jar;C:\Users\DELL\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.5\poi-ooxml-lite-5.2.5.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\DELL\.m2\repository\com\github\virtuald\curvesapi\1.08\curvesapi-1.08.jar;C:\Users\DELL\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\DELL\.m2\repository\org\apache\xmlbeans\xmlbeans\5.2.1\xmlbeans-5.2.1.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\DELL\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\DELL\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\DELL\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\DELL\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\DELL\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\DELL\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\DELL\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\DELL\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\DELL\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\DELL\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\DELL\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\DELL\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\DELL\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\DELL\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\DELL\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\DELL\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\DELL\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\DELL\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\DELL\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\DELL\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\DELL\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\DELL\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\DELL\.m2\repository\org\apache\logging\log4j\log4j-core\2.23.1\log4j-core-2.23.1.jar;C:\Users\DELL\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Users\DELL\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Users\DELL\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire15420013421366625876\surefirebooter-20240707082945159_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\DELL\AppData\Local\Temp\surefire5707695023006238596\surefirebooter-20240707115525194_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.1+8-16"/>
@@ -59,27 +59,27 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
   </properties>
-  <testcase name="addItemToCart" classname="tests.RemoveItemfromCart" time="22.325">
-    <system-out><![CDATA[ChromeDriver: chrome on windows (a0480b8ddc7b59e7595910d4301af1ef)is instantiated
+  <testcase name="addItemToCart" classname="tests.RemoveItemfromCart" time="18.868">
+    <system-out><![CDATA[ChromeDriver: chrome on windows (25286273c2a2378b6ba4dc7fd3c33ece)is instantiated
 Item clicked
 Item added to Cart successfully
 ]]></system-out>
     <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
 SLF4J(W): Defaulting to no-operation (NOP) logger implementation
 SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
-Jul 07, 2024 8:29:51 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+Jul 07, 2024 11:55:29 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 126
 ]]></system-err>
   </testcase>
-  <testcase name="removeItemFromCart" classname="tests.RemoveItemfromCart" time="6.434">
+  <testcase name="removeItemFromCart" classname="tests.RemoveItemfromCart" time="5.268">
     <system-out><![CDATA[Element found is Your shopping cart contains 1 item
 cart Clicked
 Item is removed from cart successfully
 ]]></system-out>
   </testcase>
-  <testcase name="addMultiItemToCart" classname="tests.RemoveMulItemfromCart" time="26.763">
+  <testcase name="addMultiItemToCart" classname="tests.RemoveMulItemfromCart" time="26.682">
     <system-out><![CDATA[Tear down successful
-ChromeDriver: chrome on windows (52b7d219d0367cd54dd78f4455f78033)is instantiated
+ChromeDriver: chrome on windows (b3ec9b5d2336833e3da2e35fe4eda787)is instantiated
 Clicking on Item 0Bickmore Felt Hat Cleaning Sponge - for Western Cowboy Cowgirl Hats &
 Item0 added to Cart successfully
 Clicking on Item 1Pink Cowgirl Hat with Heart Glasses - Pink Cowboy Hat with Tiara Crown
@@ -88,43 +88,23 @@ Clicking on Item 2America 4th of July Patriotic Cowboy Hat Star Studs Hatband by
 Item2 added to Cart successfully
 Multiple Items are added to cart successfully
 ]]></system-out>
-    <system-err><![CDATA[Jul 07, 2024 8:30:23 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 07, 2024 11:55:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 126
 ]]></system-err>
   </testcase>
-  <testcase name="removeMultiItemFromCart" classname="tests.RemoveMulItemfromCart" time="9.379">
+  <testcase name="removeMultiItemFromCart" classname="tests.RemoveMulItemfromCart" time="11.434">
     <system-out><![CDATA[Element found is Your shopping cart
 cart Clicked
 All items are removed successfully
 ]]></system-out>
   </testcase>
-  <testcase name="search" classname="tests.SearchProduct" time="19.978">
+  <testcase name="search" classname="tests.SearchProduct" time="24.461">
     <system-out><![CDATA[Tear down successful
-ChromeDriver: chrome on windows (71b64fbd320149fc744b867a06e06103)is instantiated
+ChromeDriver: chrome on windows (1b3b26545369146c1fad9f71a15939ad)is instantiated
 already expanded
 Item selected= Dell Laptop Latitude 7490 Light Gaming Core i7 16GB RAM 256GB SSD Windows 11.It's Price is US $276.48
 ]]></system-out>
-    <system-err><![CDATA[Jul 07, 2024 8:30:59 AM org.openqa.selenium.remote.http.WebSocket$Listener onError
-WARNING: Connection reset
-java.net.SocketException: Connection reset
-	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:403)
-	at java.base/sun.nio.ch.SocketChannelImpl.implRead(SocketChannelImpl.java:435)
-	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:493)
-	at java.net.http/jdk.internal.net.http.SocketTube.readAvailable(SocketTube.java:1178)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.read(SocketTube.java:841)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowTask.run(SocketTube.java:181)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler$SchedulableTask.run(SequentialScheduler.java:207)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:280)
-	at java.net.http/jdk.internal.net.http.common.SequentialScheduler.runOrSchedule(SequentialScheduler.java:233)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$InternalReadSubscription.signalReadable(SocketTube.java:782)
-	at java.net.http/jdk.internal.net.http.SocketTube$InternalReadPublisher$ReadEvent.signalEvent(SocketTube.java:965)
-	at java.net.http/jdk.internal.net.http.SocketTube$SocketFlowEvent.handle(SocketTube.java:253)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:1476)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:1421)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-	at java.net.http/jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:1421)
-
-Jul 07, 2024 8:31:01 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+    <system-err><![CDATA[Jul 07, 2024 11:56:38 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find an exact match for CDP version 126, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 126
 ]]></system-err>
   </testcase>
